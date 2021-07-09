@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - MyLove
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3337868669
+    locked: 0
+  - name: BackOfCharacter
+    uniqueID: 3264834349
+    locked: 0
+  - name: Character
+    uniqueID: 1550755421
+    locked: 0
+  - name: FrontOfCharacter
+    uniqueID: 266744811
+    locked: 0
+  - name: UI
+    uniqueID: 3269573125
     locked: 0
