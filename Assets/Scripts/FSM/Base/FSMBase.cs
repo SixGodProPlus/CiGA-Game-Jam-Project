@@ -4,37 +4,36 @@ using System.Collections.Generic;
 using EveryFunc;
 using UnityEngine;
 //状态机基类
-public abstract class FSMBase : MonoBehaviour
-{
-    [Header("公开变量")]
-    [Tooltip("默认状态编号")]
+public abstract class FSMBase : MonoBehaviour {
+    [Header ("公开变量")]
+    [Tooltip ("默认状态编号")]
     public FSMStateID DefaultStateID;
-    [Tooltip("移动速度")]
+    [Tooltip ("移动速度")]
     public float walkSpeed;
-    [Tooltip("追击速度")]
+    [Tooltip ("追击速度")]
     public float lowchaseSpeed;
-    [Tooltip("超级追击速度")]
+    [Tooltip ("超级追击速度")]
     public float highchaseSpeed;
-    [Tooltip("移动时间")]
+    [Tooltip ("移动时间")]
     public float patrolTime;
-    [Tooltip("发现物品时的半径")]
+    [Tooltip ("发现物品时的半径")]
     public float findRadius;
-    [Tooltip("告诉追击时的半径")]
+    [Tooltip ("告诉追击时的半径")]
     public float highChaseRadius;
     //只要一个圆形半径就好了 
-    [Tooltip("抓到物品时的半径")]
+    [Tooltip ("抓到物品时的半径")]
     public float getRadius;
     /*     [Tooltip("发现玩家的扇形半径")]
         public float sectorRadius;
         [Tooltip("发现玩家的扇形角度")]
         public float sectorAngle;
      */
-    [Tooltip("普通待机时长")]
+    [Tooltip ("普通待机时长")]
     public float idleTime;
-    [Tooltip("开心待机时长")]
+    [Tooltip ("开心待机时长")]
     public float happyIdleTime;
 
-    [Header("私有变量")]
+    [Header ("私有变量")]
     //移动方向
     [HideInInspector]
     public Vector3 moveVelocity;
@@ -53,6 +52,9 @@ public abstract class FSMBase : MonoBehaviour
     //    public FSMStateID currentID;
     [HideInInspector]
     public Rigidbody2D rb;
+    //原有的质量
+    [HideInInspector]
+    public float originalMass;
     private SpriteRenderer sprite;
     //子物体获取（贴图为主）
     private Transform childTF;
@@ -66,19 +68,17 @@ public abstract class FSMBase : MonoBehaviour
     //是否受伤
     [HideInInspector]
     public bool isHurted;
-    private void Awake()
-    {
-        Init();
+    private void Awake () {
+        Init ();
     }
     //初始化怪物数据
-    private void Init()
-    {
+    private void Init () {
         //初始化Component的东西
-        InitComponent();
+        InitComponent ();
         //配置状态机
-        ConfigFSM();
+        ConfigFSM ();
         //查找默认状态：默认状态初始化
-        InitDefaultState();
+        InitDefaultState ();
     }
 
     /*     private void Reset()
@@ -86,14 +86,14 @@ public abstract class FSMBase : MonoBehaviour
             statesList.Clear();
         }
      */
-    public virtual void InitComponent()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        childTF = this.transform.Find("SelfSprite");
-        sprite = childTF.GetComponent<SpriteRenderer>();
+    public virtual void InitComponent () {
+        rb = GetComponent<Rigidbody2D> ();
+        childTF = this.transform.Find ("SelfSprite");
+        sprite = childTF.GetComponent<SpriteRenderer> ();
         walkAble = true;
         isHurted = false;
         targetTF = null;
+        originalMass = rb.mass;
         /*  //动画机
         animator = GetComponentInChildren<Animator> ();
         //角色数值
@@ -103,38 +103,34 @@ public abstract class FSMBase : MonoBehaviour
         //初始化技能管理器
         skillSystem = GetComponent<CharacterSkillSystem> (); */
     }
-    public void InitDefaultState()
-    {
-        defaultState = statesList.Find(s => s.stateID == DefaultStateID);
+    public void InitDefaultState () {
+        defaultState = statesList.Find (s => s.stateID == DefaultStateID);
         currentState = defaultState;
-        currentState.EnterState(this);
+        currentState.EnterState (this);
     }
     //配置状态机
     //根据人物状态需要设置状态机
-    public abstract void ConfigFSM();
+    public abstract void ConfigFSM ();
     //--创建状态对象
     //--设置状态(AddMap)
 
     //每帧处理的逻辑
-    public virtual void Update()
-    {
-        testState=currentState.stateID;
+    public virtual void Update () {
+        testState = currentState.stateID;
         //检测是否被攻击了，被攻击就放大搜索圈
         //HurtedSearch ();
         //TODO:侦测周围是否有敌人
-        DetectTarget();
+        DetectTarget ();
         //每帧判断条件，如果有条件满足了就切换状态
         //判断当前状态条件
-        currentState.DetectTriggers(this);
+        currentState.DetectTriggers (this);
         //执行当前逻辑
-        currentState.ActionState(this);
+        currentState.ActionState (this);
         //贴图翻转
-        textureClip();
+        textureClip ();
     }
-    public virtual void FixedUpdate()
-    {
-        if (walkAble)
-        {
+    public virtual void FixedUpdate () {
+        if (walkAble) {
             //移动
             rb.velocity = moveVelocity * m_speed * Time.fixedDeltaTime * ConstantList.speedPer;
 
@@ -146,28 +142,24 @@ public abstract class FSMBase : MonoBehaviour
     }
 
     //切换状态
-    public void ChangeActiveState(FSMStateID stateID)
-    {
+    public void ChangeActiveState (FSMStateID stateID) {
         //更新当前状态
         //退出当前状态
         //               Debug.Log ("change state:" + currentState.stateID.ToString () + " to " + stateID.ToString ());
-        currentState.ExitState(this);
+        currentState.ExitState (this);
         //切换状态
         //如果需要切换的状态编号是 Default 就直接返回默认状态,否则返回查找的状态
-        currentState = stateID == FSMStateID.Default ? defaultState : statesList.Find(s => s.stateID == stateID);
+        currentState = stateID == FSMStateID.Default ? defaultState : statesList.Find (s => s.stateID == stateID);
         //进入下一个状态
-        currentState.EnterState(this);
+        currentState.EnterState (this);
     }
     /// <summary>
     /// 检测目标
     /// </summary>
-    private void DetectTarget()
-    {
-        var targetArray = Physics2D.OverlapCircleAll(this.transform.position, findRadius);
-        foreach (var target in targetArray)
-        {
-            if (target.CompareTag("MyLove"))
-            {
+    private void DetectTarget () {
+        var targetArray = Physics2D.OverlapCircleAll (this.transform.position, findRadius);
+        foreach (var target in targetArray) {
+            if (target.CompareTag ("MyLove")) {
                 targetTF = target.transform;
                 break;
             }
@@ -176,14 +168,10 @@ public abstract class FSMBase : MonoBehaviour
     /// <summary>
     /// 贴图翻转
     /// </summary>
-    private void textureClip()
-    {
-        if (rb.velocity.x > 0.05f)
-        {
+    private void textureClip () {
+        if (rb.velocity.x > 0.05f) {
             sprite.flipX = false;
-        }
-        else if (rb.velocity.x < -0.05f)
-        {
+        } else if (rb.velocity.x < -0.05f) {
             sprite.flipX = true;
         }
     }
@@ -191,13 +179,19 @@ public abstract class FSMBase : MonoBehaviour
     /// 移动位置
     /// </summary>
     /// <param name="dirPos"></param>
-    public void MovePosition(Vector3 dirPos)
-    {
+    public void MovePosition (Vector3 dirPos) {
         moveVelocity = (dirPos - this.transform.position).normalized;
         //Debug.Log("moveVelocity:"+moveVelocity);
     }
-    public void StopPosition()
-    {
+    public void StopPosition () {
         moveVelocity = Vector3.zero;
+    }
+    //自身检测
+    private void OnTriggerEnter2D (Collider2D other) {
+        /*         if(other.CompareTag("myLove")){
+                    other.gameObject.SetActive(false);
+                }
+         */
+
     }
 }

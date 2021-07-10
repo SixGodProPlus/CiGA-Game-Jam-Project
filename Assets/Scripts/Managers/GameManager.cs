@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class GameManager : MonoBehaviour {
     public static GameManager Instance;
     public float remained_Fuel = 5f;

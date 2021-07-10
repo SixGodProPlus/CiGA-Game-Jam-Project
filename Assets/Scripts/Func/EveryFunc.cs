@@ -2,28 +2,6 @@ using UnityEngine;
 
 namespace EveryFunc
 {
-    public enum ConditionType
-    {
-
-    }
-    public enum PlayerFSMStateID
-    {
-        Default,
-        NormalMove,
-        Interactive,
-        Jump,
-        SpecialMove
-    }
-    public enum StateRelationShip
-    {
-        Forbidden,
-        Compatible,
-        Immediately
-    }
-    public enum PlayerFSMTriggerID
-    {
-
-    }
     public enum FSMStateID
     {
         Default,
@@ -45,11 +23,6 @@ namespace EveryFunc
         TargetFarAway,
         TargetGet,
         TargetLost,
-    }
-    public enum BreakLevel
-    {
-        easy,
-        hard
     }
     /// <summary>
     /// 常量列表
