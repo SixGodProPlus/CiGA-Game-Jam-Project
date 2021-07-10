@@ -27,5 +27,14 @@ public class PlayerController : MonoBehaviour {
         if (other.CompareTag ("Interactive")) {
             other.GetComponent<ItemAction> ().Action ();
         }
+        if (other.CompareTag("Stage")) {
+            other.GetComponent<ItemAction>().Action();
+        }
+    }
+
+    private void OnTriggerExit2D (Collider2D other) {
+        if (other.CompareTag("Stage")) {
+            other.GetComponent<ItemAction>().ExitAction();
+        }
     }
 }

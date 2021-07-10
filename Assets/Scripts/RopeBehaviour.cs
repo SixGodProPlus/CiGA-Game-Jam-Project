@@ -22,7 +22,7 @@ public class RopeBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ropePrefab = Resources.Load<GameObject>("Prefabs/Link");
+        ropePrefab = Resources.Load<GameObject>("Prefabs/Utilities/Link");
 
         // add Link
         float distance = Vector3.Distance(head.transform.position, tail.transform.position);
