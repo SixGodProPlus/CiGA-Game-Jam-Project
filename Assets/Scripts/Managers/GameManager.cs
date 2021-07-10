@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour {
         remainedFuel = totalFuel;
     }
     public void SupplyFuel (float buff) {
-        remainedFuel += buff;
+        remainedFuel = Mathf.Clamp (remainedFuel + buff, 0, totalFuel);
     }
     public void AddStar (int addNum) {
         starNum += addNum;

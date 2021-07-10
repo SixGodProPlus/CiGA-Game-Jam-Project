@@ -5,5 +5,6 @@ public class FuelBarrel : ItemAction {
     public float FuelSupplyAmount;
     public override void Action () {
         GameManager.Instance.SupplyFuel(FuelSupplyAmount);
+        Destroy(gameObject);
     }
 }

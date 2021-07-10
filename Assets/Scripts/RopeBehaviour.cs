@@ -34,7 +34,7 @@ public class RopeBehaviour : MonoBehaviour
         {
             var rope = Instantiate<GameObject>(ropePrefab, curPos, Quaternion.identity);
             rope.GetComponent<HingeJoint2D>().connectedBody = lastRigidbody;
-            rope.transform.localScale = new Vector3((float)scale, (float)scale, (float)scale);
+            rope.transform.localScale = new Vector3((float)scale, (float)scale*0.5f, (float)scale);
 
             // link the last one to tail
             if (i == ropeCount - 1)

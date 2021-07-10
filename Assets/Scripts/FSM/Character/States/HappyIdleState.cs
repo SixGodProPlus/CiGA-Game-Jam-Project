@@ -14,6 +14,7 @@ public class HappyIdleState : FSMState {
     }
     public override void ActionState (FSMBase fsm) {
         fsm.happyIdleTime -= Time.deltaTime;
+        if (fsm.happyIdleTime <= 0 && fsm.targetTF != null) GameObject.Destroy (fsm.targetTF.gameObject);
     }
     public override void ExitState (FSMBase fsm) {
         fsm.happyIdleTime = idleTimer;
