@@ -70,7 +70,9 @@ public class GameManager : MonoBehaviour {
     //胜利
     public void Victory () {
         Debug.Log ("胜利");
-<<<<<<< HEAD
+
+        player.GetComponent<AudioSource> ().clip = victoryClip;
+        player.GetComponent<AudioSource> ().Play ();
 
         Time.timeScale = 0;
         var dialogPrefab = Resources.Load<GameObject>("Prefabs/Utilities/VictoryDialog");
@@ -83,9 +85,5 @@ public class GameManager : MonoBehaviour {
         Time.timeScale = 0;
         var dialogPrefab = Resources.Load<GameObject>("Prefabs/Utilities/DefeatDialog");
         var dialog = Instantiate<GameObject>(dialogPrefab, Vector3.zero, Quaternion.identity);
-=======
-        player.GetComponent<AudioSource> ().clip = victoryClip;
-        player.GetComponent<AudioSource> ().Play ();
->>>>>>> ec9ea0ec771b31c03905d577f9017d67f7614fc2
     }
 }
