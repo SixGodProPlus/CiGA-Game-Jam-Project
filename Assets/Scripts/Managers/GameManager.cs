@@ -11,8 +11,6 @@ public class GameManager : MonoBehaviour {
     public float totalFuel = 50f;
     [Tooltip ("胜利音乐")]
     public AudioClip victoryClip;
-    [Tooltip ("bgm音乐")]
-    public AudioClip bgmClip;
     //剩余燃料
     [HideInInspector]
     public float remainedFuel;

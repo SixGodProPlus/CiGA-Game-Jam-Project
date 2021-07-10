@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour {
         distance = trainRightPos.position.x - trainLeftPos.position.x;
     }
     private void UpdateCoinUI () {
-        coinText.text = "Coins: " + GameManager.Instance.starNum.ToString ();
+        coinText.text = GameManager.Instance.starNum.ToString ();
     }
     private void UpdateFuelUI () {
         per = GameManager.Instance.remainedFuel / GameManager.Instance.totalFuel;
