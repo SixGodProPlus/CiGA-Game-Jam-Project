@@ -9,6 +9,7 @@ public class HappyIdleState : FSMState {
         //        throw new System.NotImplementedException();
     }
     public override void EnterState (FSMBase fsm) {
+        GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Dragged", true);
         idleTimer = fsm.happyIdleTime;
         fsm.rb.mass = maxMass;
     }
@@ -17,6 +18,7 @@ public class HappyIdleState : FSMState {
         if (fsm.happyIdleTime <= 0 && fsm.targetTF != null) GameObject.Destroy (fsm.targetTF.gameObject);
     }
     public override void ExitState (FSMBase fsm) {
+        GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Dragged", false);
         fsm.happyIdleTime = idleTimer;
         fsm.rb.mass = fsm.originalMass;
     }

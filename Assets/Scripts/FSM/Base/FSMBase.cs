@@ -70,7 +70,10 @@ public abstract class FSMBase : MonoBehaviour {
     //是否受伤
     [HideInInspector]
     public bool isHurted;
-    private void Awake () {
+    //动画机
+    [HideInInspector]
+    public Animator animator;
+    private void Start () {
         Init ();
     }
     //初始化怪物数据
@@ -95,6 +98,7 @@ public abstract class FSMBase : MonoBehaviour {
         isHurted = false;
         targetTF = null;
         originalMass = rb.mass;
+        animator = GetComponentInChildren<Animator> ();
         /*  //动画机
         animator = GetComponentInChildren<Animator> ();
         //角色数值

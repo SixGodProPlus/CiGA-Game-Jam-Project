@@ -11,7 +11,7 @@ public class HighChaseState : FSMState {
         //        throw new System.NotImplementedException();
     }
     public override void EnterState (FSMBase fsm) {
-        Debug.Log ("Lowchase state in");
+        GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Dragged", true);
         //fsm.isDoneChase = false;
         fsm.m_speed = fsm.highchaseSpeed;
         pathList = GridManager.Instance.FindPath (fsm.transform.position, fsm.targetTF.position);
@@ -41,6 +41,7 @@ public class HighChaseState : FSMState {
         fsm.MovePosition (nextPos);
     }
     public override void ExitState (FSMBase fsm) {
+        GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Dragged", false);
         //fsm.isDoneChase = false;
         fsm.StopPosition ();
     }
