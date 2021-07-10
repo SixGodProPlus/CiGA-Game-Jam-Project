@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &295809575
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 295809576}
-  m_Layer: 0
-  m_Name: StartPos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &295809576
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295809575}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.11, y: -3.71, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1507208898}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &744331473
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,7 +408,7 @@ Transform:
   m_LocalScale: {x: 5.2110977, y: 5.2110977, z: 5.2110977}
   m_Children: []
   m_Father: {fileID: 1507208898}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1076395606
 BoxCollider2D:
@@ -603,7 +573,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 295809576}
   - {fileID: 1076395605}
   m_Father: {fileID: 6428357646997942027}
   m_RootOrder: 2
@@ -913,10 +882,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf17c7e9c6371454fb3923790bf65afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartWaitTime: 2
   starNum: 0
   totalFuel: 50
-  StartPos: {fileID: 295809576}
   remainedFuel: 0
+  playerWithFireCar: {fileID: 0}
+  player: {fileID: 0}
+  fireCar: {fileID: 0}
 --- !u!1 &6428357647782177797
 GameObject:
   m_ObjectHideFlags: 0

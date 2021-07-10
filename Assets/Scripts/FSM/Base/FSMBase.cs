@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using EveryFunc;
 using UnityEngine;
+using UnityEngine.Audio;
 //状态机基类
 public abstract class FSMBase : MonoBehaviour {
     [Header ("公开变量")]
@@ -64,7 +65,7 @@ public abstract class FSMBase : MonoBehaviour {
     [HideInInspector]
     public Transform targetTF;
     [HideInInspector]
-    public bool walkAble=true;
+    public bool walkAble = true;
     [HideInInspector]
     public float m_speed;
     //是否受伤
@@ -73,6 +74,7 @@ public abstract class FSMBase : MonoBehaviour {
     //动画机
     [HideInInspector]
     public Animator animator;
+    public AudioClip[] FireCarAudios;
     private void Start () {
         Init ();
     }
