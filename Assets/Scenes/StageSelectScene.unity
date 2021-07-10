@@ -320,7 +320,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3756310799554079216, guid: e04160f38ee267541a896dba5114ba9e, type: 3}
       propertyPath: stageSceneName
-      value: SampleScene
+      value: level1
       objectReference: {fileID: 0}
     - target: {fileID: 3756310799554079217, guid: e04160f38ee267541a896dba5114ba9e, type: 3}
       propertyPath: m_RootOrder
