@@ -6,6 +6,7 @@ namespace EveryFunc {
         Idle,
         HappyIdle,
         Patrol,
+        UIPatrol,
         LowChase,
         HighChase,
         Dead,

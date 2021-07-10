@@ -123,6 +123,33 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &239142034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 201176887921584043, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
+  m_PrefabInstance: {fileID: 305918348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &239142035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239142034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075b2b993f46e8d4686fdbaf342673f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRigidbody: {fileID: 239142037}
+  defaultSpeed: 3
+  spriteRenderer: {fileID: 0}
+  animator: {fileID: 0}
+  walkable: 1
+--- !u!50 &239142037 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 201176887921584053, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
+  m_PrefabInstance: {fileID: 305918348}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &305918348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -178,7 +205,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2118002099331930337, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 96f4290f6a08b464aaedbfd90bd5f813, type: 3}
+    - target: {fileID: 2118002099331930337, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118002099331930337, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118002099331930337, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118002099331930337, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 201176887921584054, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2c65fbc3a1d139e4f8c6f2372a910c52, type: 3}
 --- !u!1 &1443968693
 GameObject:
@@ -261,7 +309,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1891271458
 PrefabInstance:
@@ -270,6 +318,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3756310799554079216, guid: e04160f38ee267541a896dba5114ba9e, type: 3}
+      propertyPath: stageSceneName
+      value: SampleScene
+      objectReference: {fileID: 0}
     - target: {fileID: 3756310799554079217, guid: e04160f38ee267541a896dba5114ba9e, type: 3}
       propertyPath: m_RootOrder
       value: 2

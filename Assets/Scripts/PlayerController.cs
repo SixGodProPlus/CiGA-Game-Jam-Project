@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour {
         }
     }
     private void PictureFlip () {
+        animator.SetFloat ("Speed", (Mathf.Abs (speed.x) + Mathf.Abs (speed.y)) / 2);
         if (gameObject.name == "Player" && (animator.GetBool ("Slow") || animator.GetBool ("Dragged"))) {
             if (GameManager.Instance.fireCar.transform.position.x - this.transform.position.x >= 0.05f) {
                 spriteRenderer.flipX = false;
