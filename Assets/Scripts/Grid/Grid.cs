@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using EveryFunc;
 using UnityEngine;
+[SerializeField]
+
 public class Grid<TGridObject> {
     //是否要画线
     private bool isDrawLine = false;
@@ -12,6 +14,7 @@ public class Grid<TGridObject> {
     private TGridObject[, ] gridArray;
     private TextMesh[, ] debugTextArray;
     private Vector3 oriPosition;
+
     public Grid (int width, int height, float cellsize, Vector3 oriPosition, Func<Grid<TGridObject>, int, int, TGridObject> createGridObject) {
         this.width = width;
         this.height = height;

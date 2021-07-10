@@ -10,6 +10,9 @@ public class RunAwayState : FSMState {
     }
     public override void EnterState (FSMBase fsm) {
         fsm.m_speed = fsm.runAwaySpeed;
+        fsm.animator.Play ("CarScare");
+        GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Slow", true);
+
     }
     public override void ActionState (FSMBase fsm) {
         targetDir = fsm.transform.position - fsm.targetTF.position;
@@ -18,5 +21,6 @@ public class RunAwayState : FSMState {
     public override void ExitState (FSMBase fsm) {
         //停止移动
         fsm.StopPosition ();
+        GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Slow", false);
     }
 }
