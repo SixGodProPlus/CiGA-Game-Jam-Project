@@ -326,6 +326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerWithFireCar
       objectReference: {fileID: 0}
+    - target: {fileID: 5930665307461434720, guid: 259ccfbd3b204c04cac2f0fbae8e6014, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7682331072491451327, guid: 259ccfbd3b204c04cac2f0fbae8e6014, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 0.00000017881393
