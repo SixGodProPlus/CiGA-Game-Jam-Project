@@ -19,4 +19,9 @@ public class PlayerController : MonoBehaviour
         Vector2 speed = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         playerRigidbody.velocity = speed * defaultSpeed * Time.fixedDeltaTime * ConstantList.speedPer;
     }
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.CompareTag("")){
+
+        }
+    }
 }
