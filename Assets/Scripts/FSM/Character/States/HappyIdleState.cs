@@ -14,6 +14,7 @@ public class HappyIdleState : FSMState {
         idleTimer = fsm.happyIdleTime;
         fsm.rb.mass = maxMass;
         fsm.audioSource.clip = fsm.FireCarAudios[0];
+        GameManager.Instance.AddGear (1);
         fsm.audioSource.Play ();
     }
     public override void ActionState (FSMBase fsm) {

@@ -1,12 +1,15 @@
 using System.Collections;
 using Cinemachine;
 using UnityEngine;
+using UnityEngine.UI;
 public class GameManager : MonoBehaviour {
     public static GameManager Instance;
     [Tooltip ("开始等待时间")]
     public float StartWaitTime = 2f;
     [Tooltip ("星星总数")]
     public int starNum = 0;
+    [Tooltip ("纽扣总数")]
+    public int gearNum = 0;
     [Tooltip ("油总量")]
     public float totalFuel = 50f;
     [Tooltip ("胜利音乐")]
@@ -34,7 +37,7 @@ public class GameManager : MonoBehaviour {
         if (remainedFuel > 0)
             remainedFuel -= Time.deltaTime;
         if (remainedFuel < 0) {
-            Defeat();
+            Defeat ();
             remainedFuel = totalFuel;
         }
     }
@@ -50,6 +53,9 @@ public class GameManager : MonoBehaviour {
     }
     public void AddStar (int addNum) {
         starNum += addNum;
+    }
+    public void AddGear (int addNum) {
+        gearNum += addNum;
     }
     //开始游戏
     public void StartGame () {
@@ -73,15 +79,17 @@ public class GameManager : MonoBehaviour {
         player.GetComponent<AudioSource> ().Play ();
 
         Time.timeScale = 0;
-        var dialogPrefab = Resources.Load<GameObject>("Prefabs/Utilities/VictoryDialog");
-        var dialog = Instantiate<GameObject>(dialogPrefab, Vector3.zero, Quaternion.identity);
+        var dialogPrefab = Resources.Load<GameObject> ("Prefabs/Utilities/VictoryDialog");
+        var dialog = Instantiate<GameObject> (dialogPrefab, Vector3.zero, Quaternion.identity);
+        GameObject.Find ("CoinText").GetComponent<Text> ().text = starNum.ToString ();
+        GameObject.Find ("GearText").GetComponent<Text> ().text = gearNum.ToString ();
     }
 
-    public void Defeat() {
-        Debug.Log("失败");
+    public void Defeat () {
+        Debug.Log ("失败");
 
         Time.timeScale = 0;
-        var dialogPrefab = Resources.Load<GameObject>("Prefabs/Utilities/DefeatDialog");
-        var dialog = Instantiate<GameObject>(dialogPrefab, Vector3.zero, Quaternion.identity);
+        var dialogPrefab = Resources.Load<GameObject> ("Prefabs/Utilities/DefeatDialog");
+        var dialog = Instantiate<GameObject> (dialogPrefab, Vector3.zero, Quaternion.identity);
     }
 }
