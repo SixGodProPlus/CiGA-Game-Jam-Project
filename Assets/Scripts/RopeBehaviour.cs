@@ -57,9 +57,6 @@ public class RopeBehaviour : MonoBehaviour
     }
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.P)) {
-            addLink(6);
-        }
     }
 
     public void addLink(int count)
