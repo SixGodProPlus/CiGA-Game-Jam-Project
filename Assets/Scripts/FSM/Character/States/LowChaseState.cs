@@ -11,7 +11,6 @@ public class LowChaseState : FSMState {
         //        throw new System.NotImplementedException();
     }
     public override void EnterState (FSMBase fsm) {
-        Debug.Log ("Lowchase state in");
         //fsm.isDoneChase = false;
         fsm.m_speed = fsm.lowchaseSpeed;
         pathList = GridManager.Instance.FindPath (fsm.transform.position, fsm.targetTF.position);

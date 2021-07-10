@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8650536715055026580}
   m_Layer: 0
   m_Name: PlayerWithFireCar
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3746097674899814230}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 4.05, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3746097674853258332}
@@ -166,8 +166,9 @@ MonoBehaviour:
   walkSpeed: 2
   lowchaseSpeed: 3
   highchaseSpeed: 10
+  runAwaySpeed: 4
   patrolTime: 1
-  findRadius: 4
+  findRadius: 5
   highChaseRadius: 3
   getRadius: 1
   idleTime: 0.2
@@ -300,7 +301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3746097675341715135}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.33, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 805058258006979047}
@@ -342,6 +343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRigidbody: {fileID: 3746097675341715121}
   defaultSpeed: 5
+  walkable: 0
 --- !u!61 &1786253230317073379
 BoxCollider2D:
   m_ObjectHideFlags: 0

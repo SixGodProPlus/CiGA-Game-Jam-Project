@@ -14,6 +14,8 @@ public abstract class FSMBase : MonoBehaviour {
     public float lowchaseSpeed;
     [Tooltip ("超级追击速度")]
     public float highchaseSpeed;
+    [Tooltip ("逃跑速度")]
+    public float runAwaySpeed;
     [Tooltip ("移动时间")]
     public float patrolTime;
     [Tooltip ("发现物品时的半径")]
@@ -62,7 +64,7 @@ public abstract class FSMBase : MonoBehaviour {
     [HideInInspector]
     public Transform targetTF;
     [HideInInspector]
-    public bool walkAble;
+    public bool walkAble=true;
     [HideInInspector]
     public float m_speed;
     //是否受伤
@@ -90,7 +92,6 @@ public abstract class FSMBase : MonoBehaviour {
         rb = GetComponent<Rigidbody2D> ();
         childTF = this.transform.Find ("SelfSprite");
         sprite = childTF.GetComponent<SpriteRenderer> ();
-        walkAble = true;
         isHurted = false;
         targetTF = null;
         originalMass = rb.mass;
@@ -116,6 +117,7 @@ public abstract class FSMBase : MonoBehaviour {
 
     //每帧处理的逻辑
     public virtual void Update () {
+        if (!walkAble) return;
         testState = currentState.stateID;
         //检测是否被攻击了，被攻击就放大搜索圈
         //HurtedSearch ();
@@ -159,7 +161,7 @@ public abstract class FSMBase : MonoBehaviour {
     private void DetectTarget () {
         var targetArray = Physics2D.OverlapCircleAll (this.transform.position, findRadius);
         foreach (var target in targetArray) {
-            if (target.CompareTag ("MyLove")) {
+            if (target.CompareTag ("MyLove") || target.CompareTag ("MyHate")) {
                 targetTF = target.transform;
                 break;
             }
@@ -188,10 +190,9 @@ public abstract class FSMBase : MonoBehaviour {
     }
     //自身检测
     private void OnTriggerEnter2D (Collider2D other) {
-        /*         if(other.CompareTag("myLove")){
-                    other.gameObject.SetActive(false);
-                }
-         */
-
+        if (other.CompareTag ("EndArea")) {
+            GameManager.Instance.Victory ();
+            //other.gameObject.SetActive (false);
+        }
     }
 }

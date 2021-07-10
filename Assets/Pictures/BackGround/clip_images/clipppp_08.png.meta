@@ -1,0 +1,3348 @@
+fileFormatVersion: 2
+guid: c701aeac7e69e764eb61890079a3e41a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1738285489187358589
+    second: clipppp_08_0
+  - first:
+      213: 3395273749514874686
+    second: clipppp_08_1
+  - first:
+      213: 4486764136297053635
+    second: clipppp_08_2
+  - first:
+      213: 1624170127460755406
+    second: clipppp_08_3
+  - first:
+      213: -8386841275785625781
+    second: clipppp_08_4
+  - first:
+      213: 3304481494305298038
+    second: clipppp_08_5
+  - first:
+      213: 7217417649880845067
+    second: clipppp_08_6
+  - first:
+      213: -6476329236385835400
+    second: clipppp_08_7
+  - first:
+      213: 168508058442697746
+    second: clipppp_08_8
+  - first:
+      213: -2811992797025116698
+    second: clipppp_08_9
+  - first:
+      213: -2196557880491576956
+    second: clipppp_08_10
+  - first:
+      213: 6801956828276579528
+    second: clipppp_08_11
+  - first:
+      213: -572241782187227971
+    second: clipppp_08_12
+  - first:
+      213: 360213202634382093
+    second: clipppp_08_13
+  - first:
+      213: -8991037699238494751
+    second: clipppp_08_14
+  - first:
+      213: 8945242215659014605
+    second: clipppp_08_15
+  - first:
+      213: 2687871988213942300
+    second: clipppp_08_16
+  - first:
+      213: 7213734494285396504
+    second: clipppp_08_17
+  - first:
+      213: -6230140574801825293
+    second: clipppp_08_18
+  - first:
+      213: 2141463043491353233
+    second: clipppp_08_19
+  - first:
+      213: -8429997684722614212
+    second: clipppp_08_20
+  - first:
+      213: 3594143236061278904
+    second: clipppp_08_21
+  - first:
+      213: 4580500048250449229
+    second: clipppp_08_22
+  - first:
+      213: -4585271445235587938
+    second: clipppp_08_23
+  - first:
+      213: 8529792107154244027
+    second: clipppp_08_24
+  - first:
+      213: -6673424443341931713
+    second: clipppp_08_25
+  - first:
+      213: 6918583112316070037
+    second: clipppp_08_26
+  - first:
+      213: 5944213251579501076
+    second: clipppp_08_27
+  - first:
+      213: 4245649416727476075
+    second: clipppp_08_28
+  - first:
+      213: -5590389306944457436
+    second: clipppp_08_29
+  - first:
+      213: -4988080807862516132
+    second: clipppp_08_30
+  - first:
+      213: 5022781445084267466
+    second: clipppp_08_31
+  - first:
+      213: -2598155244710221728
+    second: clipppp_08_32
+  - first:
+      213: -1378097470128440896
+    second: clipppp_08_33
+  - first:
+      213: -593235121582230002
+    second: clipppp_08_34
+  - first:
+      213: 670450984822699686
+    second: clipppp_08_35
+  - first:
+      213: -2852373736761141023
+    second: clipppp_08_36
+  - first:
+      213: 5695805985192802149
+    second: clipppp_08_37
+  - first:
+      213: -7233288562282238599
+    second: clipppp_08_38
+  - first:
+      213: -7076123737087851677
+    second: clipppp_08_39
+  - first:
+      213: -2764759653657853015
+    second: clipppp_08_40
+  - first:
+      213: 720351418924909139
+    second: clipppp_08_41
+  - first:
+      213: 235996936958959797
+    second: clipppp_08_42
+  - first:
+      213: -8778217737893194212
+    second: clipppp_08_43
+  - first:
+      213: -7049760480678851341
+    second: clipppp_08_44
+  - first:
+      213: 6388360221802558890
+    second: clipppp_08_45
+  - first:
+      213: -1800894606934555112
+    second: clipppp_08_46
+  - first:
+      213: -4786483528087278111
+    second: clipppp_08_47
+  - first:
+      213: -6038281980268151653
+    second: clipppp_08_48
+  - first:
+      213: 1371016191212993557
+    second: clipppp_08_49
+  - first:
+      213: 4818490318127932442
+    second: clipppp_08_50
+  - first:
+      213: 1636477073258927660
+    second: clipppp_08_51
+  - first:
+      213: -9176972342300937370
+    second: clipppp_08_52
+  - first:
+      213: -756543254457222017
+    second: clipppp_08_53
+  - first:
+      213: 5807136651808374438
+    second: clipppp_08_54
+  - first:
+      213: 4585762447854338173
+    second: clipppp_08_55
+  - first:
+      213: -1603230158808145529
+    second: clipppp_08_56
+  - first:
+      213: -5309975994607999638
+    second: clipppp_08_57
+  - first:
+      213: 870085011609776364
+    second: clipppp_08_58
+  - first:
+      213: 7798905791843632865
+    second: clipppp_08_59
+  - first:
+      213: 6006592857590586375
+    second: clipppp_08_60
+  - first:
+      213: 7926029875625486050
+    second: clipppp_08_61
+  - first:
+      213: -936483844182118754
+    second: clipppp_08_62
+  - first:
+      213: 710384102191396451
+    second: clipppp_08_63
+  - first:
+      213: -5192725015842050394
+    second: clipppp_08_64
+  - first:
+      213: 6665957174608833825
+    second: clipppp_08_65
+  - first:
+      213: -6143794941678187695
+    second: clipppp_08_66
+  - first:
+      213: -1416434304194671497
+    second: clipppp_08_67
+  - first:
+      213: -2153418723919887551
+    second: clipppp_08_68
+  - first:
+      213: 6487755826630464029
+    second: clipppp_08_69
+  - first:
+      213: 1373102918491608326
+    second: clipppp_08_70
+  - first:
+      213: 4541436998565499761
+    second: clipppp_08_71
+  - first:
+      213: 5619860289930779889
+    second: clipppp_08_72
+  - first:
+      213: -1347248602739929999
+    second: clipppp_08_73
+  - first:
+      213: 2241565869103711642
+    second: clipppp_08_74
+  - first:
+      213: 75832042379007984
+    second: clipppp_08_75
+  - first:
+      213: -521138981929640060
+    second: clipppp_08_76
+  - first:
+      213: -4216643936551523432
+    second: clipppp_08_77
+  - first:
+      213: -580159023354958385
+    second: clipppp_08_78
+  - first:
+      213: 154945369096272693
+    second: clipppp_08_79
+  - first:
+      213: 8111006377986863711
+    second: clipppp_08_80
+  - first:
+      213: -6732025571006000718
+    second: clipppp_08_81
+  - first:
+      213: -747834297326142704
+    second: clipppp_08_82
+  - first:
+      213: -6512219609560526262
+    second: clipppp_08_83
+  - first:
+      213: -8459011104404444514
+    second: clipppp_08_84
+  - first:
+      213: 4654552533233301776
+    second: clipppp_08_85
+  - first:
+      213: -3399379662476641305
+    second: clipppp_08_86
+  - first:
+      213: 8360136917456113269
+    second: clipppp_08_87
+  - first:
+      213: -6917884002610708486
+    second: clipppp_08_88
+  - first:
+      213: -2891141039887021236
+    second: clipppp_08_89
+  - first:
+      213: -4714998713608448982
+    second: clipppp_08_90
+  - first:
+      213: 849680041093390598
+    second: clipppp_08_91
+  - first:
+      213: 7146608323479350574
+    second: clipppp_08_92
+  - first:
+      213: -6389192560953723872
+    second: clipppp_08_93
+  - first:
+      213: 4308087107078210141
+    second: clipppp_08_94
+  - first:
+      213: -4323301788421759502
+    second: clipppp_08_95
+  - first:
+      213: -1466705079274037458
+    second: clipppp_08_96
+  - first:
+      213: 2011388081839622092
+    second: clipppp_08_97
+  - first:
+      213: -907129851355052675
+    second: clipppp_08_98
+  - first:
+      213: 2322940902055139328
+    second: clipppp_08_99
+  - first:
+      213: 7248804688470896445
+    second: clipppp_08_100
+  - first:
+      213: 5157046971360201577
+    second: clipppp_08_101
+  - first:
+      213: -1438070215667373141
+    second: clipppp_08_102
+  - first:
+      213: 8707833480917688749
+    second: clipppp_08_103
+  - first:
+      213: 103894381837090330
+    second: clipppp_08_104
+  - first:
+      213: -6724760949254611222
+    second: clipppp_08_105
+  - first:
+      213: 5417473168157991145
+    second: clipppp_08_106
+  - first:
+      213: 4331255455203479699
+    second: clipppp_08_107
+  - first:
+      213: 3835933198649544597
+    second: clipppp_08_108
+  - first:
+      213: 2549043152624431964
+    second: clipppp_08_109
+  - first:
+      213: -1115204943685025837
+    second: clipppp_08_110
+  - first:
+      213: -7342088593176517859
+    second: clipppp_08_111
+  - first:
+      213: -8375120513360681425
+    second: clipppp_08_112
+  - first:
+      213: 2474787891255154202
+    second: clipppp_08_113
+  - first:
+      213: -6825113783025010390
+    second: clipppp_08_114
+  - first:
+      213: -8659661323775734039
+    second: clipppp_08_115
+  - first:
+      213: 4344816424764979936
+    second: clipppp_08_116
+  - first:
+      213: 5206120156937311086
+    second: clipppp_08_117
+  - first:
+      213: 5835066302110438341
+    second: clipppp_08_118
+  - first:
+      213: 8266274135754960783
+    second: clipppp_08_119
+  - first:
+      213: 2967146413433357249
+    second: clipppp_08_120
+  - first:
+      213: 4934584273218143818
+    second: clipppp_08_121
+  - first:
+      213: 950392857237058859
+    second: clipppp_08_122
+  - first:
+      213: 6453905720291154754
+    second: clipppp_08_123
+  - first:
+      213: -7279195367492089306
+    second: clipppp_08_124
+  - first:
+      213: -2855303022063826694
+    second: clipppp_08_125
+  - first:
+      213: -5819238962918118650
+    second: clipppp_08_126
+  - first:
+      213: 4297244777260108449
+    second: clipppp_08_127
+  - first:
+      213: 7091918117580299730
+    second: clipppp_08_128
+  - first:
+      213: 4852011279872822822
+    second: clipppp_08_129
+  - first:
+      213: -1288259672110253494
+    second: clipppp_08_130
+  - first:
+      213: -565726981014993028
+    second: clipppp_08_131
+  - first:
+      213: 6862221972705447308
+    second: clipppp_08_132
+  - first:
+      213: 1150412432820163056
+    second: clipppp_08_133
+  - first:
+      213: 3928554231214081850
+    second: clipppp_08_134
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clipppp_08_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d778a3d4171af1810800000000000000
+      internalID: 1738285489187358589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fea0b7c7f6e1f20800000000000000
+      internalID: 3395273749514874686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdb2f6c530344e30800000000000000
+      internalID: 4486764136297053635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7691e20263a8610800000000000000
+      internalID: 1624170127460755406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fb6398b44fb9b80800000000000000
+      internalID: -8386841275785625781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6765be24960ebdd20800000000000000
+      internalID: 3304481494305298038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b48c0fc1b692460800000000000000
+      internalID: 7217417649880845067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876deb06fd47f16a0800000000000000
+      internalID: -6476329236385835400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1545
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c8445bf29a65200800000000000000
+      internalID: 168508058442697746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5c5e137bc9f8d0800000000000000
+      internalID: -2811992797025116698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481f6bcde324481e0800000000000000
+      internalID: -2196557880491576956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccd7fe62b7656e50800000000000000
+      internalID: 6801956828276579528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_12
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db40817812dfe08f0800000000000000
+      internalID: -572241782187227971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b9d62dffbbff400800000000000000
+      internalID: 360213202634382093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_14
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed7ebe59da693380800000000000000
+      internalID: -8991037699238494751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc90f26b662e32c70800000000000000
+      internalID: 8945242215659014605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_16
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c180733155d3d4520800000000000000
+      internalID: 2687871988213942300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_17
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1435
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81afcd37d455c1460800000000000000
+      internalID: 7213734494285396504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1703ae7281a89a0800000000000000
+      internalID: -6230140574801825293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_19
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192dde6ca4108bd10800000000000000
+      internalID: 2141463043491353233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c304eb015c1a20b80800000000000000
+      internalID: -8429997684722614212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b23e490b36f0e130800000000000000
+      internalID: 3594143236061278904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4da0ad7684319f30800000000000000
+      internalID: 4580500048250449229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_23
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94adf31ae7dd50c0800000000000000
+      internalID: -4585271445235587938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_24
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb10cda8ab8ef5670800000000000000
+      internalID: 8529792107154244027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_25
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bf13b73db3363a0800000000000000
+      internalID: -6673424443341931713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_26
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1325
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598ad963faeb30060800000000000000
+      internalID: 6918583112316070037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ad09165761e7250800000000000000
+      internalID: 5944213251579501076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_28
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67b2ec66a39bea30800000000000000
+      internalID: 4245649416727476075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_29
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425fe636b82fa62b0800000000000000
+      internalID: -5590389306944457436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_30
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c564968eee6c6cab0800000000000000
+      internalID: -4988080807862516132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_31
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3cbaacc1184b540800000000000000
+      internalID: 5022781445084267466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_32
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068aabf029f71fbd0800000000000000
+      internalID: -2598155244710221728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9312307a300ece0800000000000000
+      internalID: -1378097470128440896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_34
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e063ecdccc764c7f0800000000000000
+      internalID: -593235121582230002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_35
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1215
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6faa55e9bed4900800000000000000
+      internalID: 670450984822699686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8d2bde2355a68d0800000000000000
+      internalID: -2852373736761141023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_37
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567f5f8ad519b0f40800000000000000
+      internalID: 5695805985192802149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_38
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d654f40623e9b90800000000000000
+      internalID: -7233288562282238599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_39
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3634b28b3fe8ccd90800000000000000
+      internalID: -7076123737087851677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_40
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3446a4eb991a9d0800000000000000
+      internalID: -2764759653657853015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_41
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352c7768cc33ff900800000000000000
+      internalID: 720351418924909139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_42
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0e48bb6fd664300800000000000000
+      internalID: 235996936958959797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_43
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16d7d3f9718d2680800000000000000
+      internalID: -8778217737893194212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_44
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1105
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fccc8da1383a2e90800000000000000
+      internalID: -7049760480678851341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f6c556c308a850800000000000000
+      internalID: 6388360221802558890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_46
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816cfb385efe107e0800000000000000
+      internalID: -1800894606934555112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_47
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed6911579ef29db0800000000000000
+      internalID: -4786483528087278111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_48
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c7978f786b33ca0800000000000000
+      internalID: -6038281980268151653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_49
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c3f8246f3d60310800000000000000
+      internalID: 1371016191212993557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_50
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14aca53a67bed240800000000000000
+      internalID: 4818490318127932442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_51
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c265baa4a3fe5b610800000000000000
+      internalID: 1636477073258927660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_52
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663719fb648d4a080800000000000000
+      internalID: -9176972342300937370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_53
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 995
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cfbdc1be73085f0800000000000000
+      internalID: -756543254457222017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae703d6408179050800000000000000
+      internalID: 5807136651808374438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d700fa066a6e3af30800000000000000
+      internalID: 4585762447854338173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_56
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7812c033aae20c9e0800000000000000
+      internalID: -1603230158808145529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_57
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65e98367fc2f46b0800000000000000
+      internalID: -5309975994607999638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_58
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0746945b9231c00800000000000000
+      internalID: 870085011609776364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_59
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6839f4f774b3c60800000000000000
+      internalID: 7798905791843632865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_60
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cd5133164bb5350800000000000000
+      internalID: 6006592857590586375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_61
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e66acf8d2aeefd60800000000000000
+      internalID: 7926029875625486050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_62
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 885
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ee1a9c7e0f003f0800000000000000
+      internalID: -936483844182118754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366f331c39acbd900800000000000000
+      internalID: 710384102191396451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_64
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae237e3c1cbfe7b0800000000000000
+      internalID: -5192725015842050394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12da6888bbc328c50800000000000000
+      internalID: 6665957174608833825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_66
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b0e604d0bdcbaa0800000000000000
+      internalID: -6143794941678187695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_67
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c8cc24180d75ce0800000000000000
+      internalID: -1416434304194671497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_68
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143841474158d12e0800000000000000
+      internalID: -2153418723919887551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_69
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1297cbfc83290a50800000000000000
+      internalID: 6487755826630464029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_70
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6059eb054dd3e0310800000000000000
+      internalID: 1373102918491608326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_71
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 775
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173105d73ec660f30800000000000000
+      internalID: 4541436998565499761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcd5ac8821cdfd40800000000000000
+      internalID: 5619860289930779889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_73
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c8b89a88c9d4de0800000000000000
+      internalID: -1347248602739929999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_74
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9501981844ab1f10800000000000000
+      internalID: 2241565869103711642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_75
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7d79c37d86d0100800000000000000
+      internalID: 75832042379007984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_76
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f99776bda84c8f0800000000000000
+      internalID: -521138981929640060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_77
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89baa813ea87b75c0800000000000000
+      internalID: -4216643936551523432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_78
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcda0bb217cd2f7f0800000000000000
+      internalID: -580159023354958385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_79
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b33940ef9762200800000000000000
+      internalID: 154945369096272693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_80
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 665
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52b5daa355109070800000000000000
+      internalID: 8111006377986863711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b15755396a0392a0800000000000000
+      internalID: -6732025571006000718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_82
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b75053ba82f95f0800000000000000
+      internalID: -747834297326142704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_83
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42dfc0b4c2ff95a0800000000000000
+      internalID: -6512219609560526262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_84
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a63e2e73e8b9a80800000000000000
+      internalID: -8459011104404444514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_85
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019f3cb3eda489040800000000000000
+      internalID: 4654552533233301776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_86
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb7469253af2d0d0800000000000000
+      internalID: -3399379662476641305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_87
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ec9968b3c250470800000000000000
+      internalID: 8360136917456113269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_88
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afff703f62dbeff90800000000000000
+      internalID: -6917884002610708486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_89
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 555
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b0bf9ca8a90e7d0800000000000000
+      internalID: -2891141039887021236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24d1fea6a5f09eb0800000000000000
+      internalID: -4714998713608448982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_91
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6016c1ede7baacb00800000000000000
+      internalID: 849680041093390598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_92
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d26d5e76add2360800000000000000
+      internalID: 7146608323479350574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_93
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024f8ca97370557a0800000000000000
+      internalID: -6389192560953723872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_94
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5246de066669cb30800000000000000
+      internalID: 4308087107078210141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_95
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd5f44edeb8004c0800000000000000
+      internalID: -4323301788421759502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_96
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f1c97508735abe0800000000000000
+      internalID: -1466705079274037458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_97
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7418bbdc2e9eb10800000000000000
+      internalID: 2011388081839622092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_98
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 445
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7544d4d43a3963f0800000000000000
+      internalID: -907129851355052675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008d835617ebc3020800000000000000
+      internalID: 2322940902055139328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_100
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f6e76557de89460800000000000000
+      internalID: 7248804688470896445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_101
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bcde1b5e2819740800000000000000
+      internalID: 5157046971360201577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_102
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baba31112c2fa0ce0800000000000000
+      internalID: -1438070215667373141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_103
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da12a513a6078d870800000000000000
+      internalID: 8707833480917688749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_104
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1efe8bc36b117100800000000000000
+      internalID: 103894381837090330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_105
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee9244cb89dca2a0800000000000000
+      internalID: -6724760949254611222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_106
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e06448b42bbe2b40800000000000000
+      internalID: 5417473168157991145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_107
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 335
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39050e673e5bb1c30800000000000000
+      internalID: 4331255455203479699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f42a7abe8fb3530800000000000000
+      internalID: 3835933198649544597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_109
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53325ded35006320800000000000000
+      internalID: 2549043152624431964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_110
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dff4e7230ff580f0800000000000000
+      internalID: -1115204943685025837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_111
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1324461359ab1a90800000000000000
+      internalID: -7342088593176517859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_112
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26ac02344895cb80800000000000000
+      internalID: -8375120513360681425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_113
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1693b0a976385220800000000000000
+      internalID: 2474787891255154202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_114
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29fb23ec235841a0800000000000000
+      internalID: -6825113783025010390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_115
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee882928e3b2d780800000000000000
+      internalID: -8659661323775734039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_116
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 225
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea366cb483eb4c30800000000000000
+      internalID: 4344816424764979936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63df3413badf3840800000000000000
+      internalID: 5206120156937311086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_118
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c31522e2e15af050800000000000000
+      internalID: 5835066302110438341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_119
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f6ca5a784b7b270800000000000000
+      internalID: 8266274135754960783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_120
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3054141fb6d2920800000000000000
+      internalID: 2967146413433357249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_121
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46856f704a2b7440800000000000000
+      internalID: 4934584273218143818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_122
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25feaca449703d00800000000000000
+      internalID: 950392857237058859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_123
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bd0dfee01e09950800000000000000
+      internalID: 6453905720291154754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_124
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a07fd416a1bfa90800000000000000
+      internalID: -7279195367492089306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_125
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 115
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af849cb870def58d0800000000000000
+      internalID: -2855303022063826694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b2720bef8ed3fa0800000000000000
+      internalID: -5819238962918118650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_127
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aacd7d6b51e2ab30800000000000000
+      internalID: 4297244777260108449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_128
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddd78e04fd8b6260800000000000000
+      internalID: 7091918117580299730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_129
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e020f4d8ec55340800000000000000
+      internalID: 4852011279872822822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_130
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a386957ae2f1ee0800000000000000
+      internalID: -1288259672110253494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_131
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c774fb0ee422628f0800000000000000
+      internalID: -565726981014993028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_132
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d0dfcc6828b3f50800000000000000
+      internalID: 6862221972705447308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_133
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f15073330617ff00800000000000000
+      internalID: 1150412432820163056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipppp_08_134
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 5
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a378f584247058630800000000000000
+      internalID: 3928554231214081850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

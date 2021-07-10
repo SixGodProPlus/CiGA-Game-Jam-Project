@@ -8,16 +8,24 @@ public class PlayerController : MonoBehaviour {
 
     [Tooltip ("玩家默认速度")]
     public float defaultSpeed;
-
-    void Start () { }
+    private Vector2 speed;
+    //是否允许移动
+    public bool walkable=true;
 
     void Update () {
-        Vector2 speed = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
-        playerRigidbody.velocity = speed * defaultSpeed * Time.fixedDeltaTime * ConstantList.speedPer;
+        speed = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
+        speed = speed.normalized;
+    }
+    private void FixedUpdate () {
+        if (walkable) {
+            playerRigidbody.velocity = speed * defaultSpeed * Time.fixedDeltaTime * ConstantList.speedPer;
+        } else {
+            playerRigidbody.velocity = Vector3.zero;
+        }
     }
     private void OnTriggerEnter2D (Collider2D other) {
         if (other.CompareTag ("Interactive")) {
-            other.GetComponent<ItemAction>().Action();
+            other.GetComponent<ItemAction> ().Action ();
         }
     }
 }
