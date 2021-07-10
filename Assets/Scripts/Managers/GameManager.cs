@@ -1,15 +1,19 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
     public static GameManager Instance;
-    private void Awake() {
-        if(Instance!=null){
-            Debug.LogError("GameManager重复实例");
-            Destroy(gameObject);
+    public float remained_Fuel = 5f;
+    private void Awake () {
+        if (Instance != null) {
+            Debug.LogError ("GameManager重复实例");
+            Destroy (gameObject);
             return;
         }
-        Instance=this;
+        Instance = this;
+    }
+    private void Update () {
+        if (remained_Fuel > 0)
+            remained_Fuel -= Time.deltaTime;
     }
 
 }
