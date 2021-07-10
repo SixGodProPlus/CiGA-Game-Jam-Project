@@ -31,6 +31,10 @@ public class GameManager : MonoBehaviour {
     private void Update () {
         if (remainedFuel > 0)
             remainedFuel -= Time.deltaTime;
+        if (remainedFuel < 0) {
+            Defeat();
+            remainedFuel = totalFuel;
+        }
     }
     private void InitComponent () {
         remainedFuel = totalFuel;
@@ -63,5 +67,17 @@ public class GameManager : MonoBehaviour {
     //胜利
     public void Victory () {
         Debug.Log ("胜利");
+
+        Time.timeScale = 0;
+        var dialogPrefab = Resources.Load<GameObject>("Prefabs/Utilities/VictoryDialog");
+        var dialog = Instantiate<GameObject>(dialogPrefab, Vector3.zero, Quaternion.identity);
+    }
+
+    public void Defeat() {
+        Debug.Log("失败");
+
+        Time.timeScale = 0;
+        var dialogPrefab = Resources.Load<GameObject>("Prefabs/Utilities/DefeatDialog");
+        var dialog = Instantiate<GameObject>(dialogPrefab, Vector3.zero, Quaternion.identity);
     }
 }

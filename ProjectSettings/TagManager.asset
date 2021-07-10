@@ -9,6 +9,7 @@ TagManager:
   - Interactive
   - MyHate
   - EndArea
+  - Stage
   layers:
   - Default
   - TransparentFX

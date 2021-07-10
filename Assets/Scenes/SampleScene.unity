@@ -10833,8 +10833,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 63615193, guid: 2459e8f0d50a84f41a13cf0c8ac596be, type: 3}
+      propertyPath: totalFuel
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 63615193, guid: 2459e8f0d50a84f41a13cf0c8ac596be, type: 3}
       propertyPath: StartWaitTime
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076395605, guid: 2459e8f0d50a84f41a13cf0c8ac596be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076395605, guid: 2459e8f0d50a84f41a13cf0c8ac596be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 6428357646997942020, guid: 2459e8f0d50a84f41a13cf0c8ac596be, type: 3}
       propertyPath: m_Name
