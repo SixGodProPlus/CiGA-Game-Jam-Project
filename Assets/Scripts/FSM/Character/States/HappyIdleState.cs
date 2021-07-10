@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using EveryFunc;
 using UnityEngine;
 public class HappyIdleState : FSMState {
@@ -12,6 +13,8 @@ public class HappyIdleState : FSMState {
         GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Dragged", true);
         idleTimer = fsm.happyIdleTime;
         fsm.rb.mass = maxMass;
+        fsm.audioSource.clip = fsm.FireCarAudios[0];
+        fsm.audioSource.Play ();
     }
     public override void ActionState (FSMBase fsm) {
         fsm.happyIdleTime -= Time.deltaTime;

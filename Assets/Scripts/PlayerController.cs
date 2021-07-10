@@ -16,9 +16,13 @@ public class PlayerController : MonoBehaviour {
     private Vector2 speed;
     //是否允许移动
     public bool walkable = true;
+    private AudioSource audioSource;
+    private AudioClip originClip;
     private void Awake () {
         spriteRenderer = this.GetComponentInChildren<SpriteRenderer> ();
         animator = this.GetComponentInChildren<Animator> ();
+        audioSource = this.GetComponent<AudioSource> ();
+        originClip = audioSource.clip;
     }
     void Update () {
         speed = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
@@ -33,7 +37,7 @@ public class PlayerController : MonoBehaviour {
         }
     }
     private void PictureFlip () {
-        if (gameObject.name=="Player" && (animator.GetBool ("Slow") || animator.GetBool ("Dragged"))) {
+        if (gameObject.name == "Player" && (animator.GetBool ("Slow") || animator.GetBool ("Dragged"))) {
             if (GameManager.Instance.fireCar.transform.position.x - this.transform.position.x >= 0.05f) {
                 spriteRenderer.flipX = false;
             } else if (GameManager.Instance.fireCar.transform.position.x - this.transform.position.x <= -0.05f) {
@@ -50,6 +54,8 @@ public class PlayerController : MonoBehaviour {
     }
     private void OnTriggerEnter2D (Collider2D other) {
         if (other.CompareTag ("Interactive")) {
+            audioSource.clip = originClip;
+            audioSource.Play ();
             other.GetComponent<ItemAction> ().Action ();
         }
         if (other.CompareTag ("Stage")) {
