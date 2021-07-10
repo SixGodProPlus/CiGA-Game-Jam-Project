@@ -12,6 +12,8 @@ public class RunAwayState : FSMState {
         fsm.m_speed = fsm.runAwaySpeed;
         fsm.animator.Play ("CarScare");
         GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Slow", true);
+        fsm.audioSource.clip = fsm.FireCarAudios[1];
+        fsm.audioSource.Play ();
 
     }
     public override void ActionState (FSMBase fsm) {

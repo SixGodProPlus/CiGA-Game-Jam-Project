@@ -4,11 +4,15 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     public static GameManager Instance;
     [Tooltip ("开始等待时间")]
-    public float StartWaitTime=2f;
+    public float StartWaitTime = 2f;
     [Tooltip ("星星总数")]
     public int starNum = 0;
     [Tooltip ("油总量")]
     public float totalFuel = 50f;
+    [Tooltip ("胜利音乐")]
+    public AudioClip victoryClip;
+    [Tooltip ("bgm音乐")]
+    public AudioClip bgmClip;
     //剩余燃料
     [HideInInspector]
     public float remainedFuel;
@@ -41,8 +45,8 @@ public class GameManager : MonoBehaviour {
         playerWithFireCar = GameObject.Find ("PlayerWithFireCar");
         player = playerWithFireCar.transform.Find ("Player").gameObject;
         fireCar = playerWithFireCar.transform.Find ("FireCar").gameObject;
-        StartGame();
-    } 
+        StartGame ();
+    }
     public void SupplyFuel (float buff) {
         remainedFuel = Mathf.Clamp (remainedFuel + buff, 0, totalFuel);
     }
@@ -53,20 +57,20 @@ public class GameManager : MonoBehaviour {
     public void StartGame () {
         /*         player = Resources.Load<GameObject> ("Prefabs/PlayerWithFireCar");
                 player = GameObject.Instantiate (player, StartPos.position, Quaternion.identity); */
-
         player.GetComponent<PlayerController> ().walkable = false;
         fireCar.GetComponent<FSMBase> ().walkAble = false;
         StartCoroutine (StartWalkable ());
     }
     IEnumerator StartWalkable () {
         yield return new WaitForSeconds (StartWaitTime);
-        Debug.Log("开始游戏");
+        Debug.Log ("开始游戏");
         player.GetComponentInChildren<PlayerController> ().walkable = true;
         fireCar.GetComponentInChildren<FSMBase> ().walkAble = true;
     }
     //胜利
     public void Victory () {
         Debug.Log ("胜利");
+<<<<<<< HEAD
 
         Time.timeScale = 0;
         var dialogPrefab = Resources.Load<GameObject>("Prefabs/Utilities/VictoryDialog");
@@ -79,5 +83,9 @@ public class GameManager : MonoBehaviour {
         Time.timeScale = 0;
         var dialogPrefab = Resources.Load<GameObject>("Prefabs/Utilities/DefeatDialog");
         var dialog = Instantiate<GameObject>(dialogPrefab, Vector3.zero, Quaternion.identity);
+=======
+        player.GetComponent<AudioSource> ().clip = victoryClip;
+        player.GetComponent<AudioSource> ().Play ();
+>>>>>>> ec9ea0ec771b31c03905d577f9017d67f7614fc2
     }
 }

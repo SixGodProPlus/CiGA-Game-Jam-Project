@@ -40,6 +40,8 @@ public abstract class FSMBase : MonoBehaviour {
     //移动方向
     [HideInInspector]
     public Vector3 moveVelocity;
+    [HideInInspector]
+    public AudioSource audioSource;
 
     //TODO:是否需要给敌人设置一个巡逻范围：只会在巡逻范围内随机选择点来巡逻
     /*     [Tooltip("巡逻范围,以左下点和右上点为主")]
@@ -75,6 +77,8 @@ public abstract class FSMBase : MonoBehaviour {
     [HideInInspector]
     public Animator animator;
     public AudioClip[] FireCarAudios;
+    [HideInInspector]
+    public int audioIndex;
     private void Start () {
         Init ();
     }
@@ -101,6 +105,8 @@ public abstract class FSMBase : MonoBehaviour {
         targetTF = null;
         originalMass = rb.mass;
         animator = GetComponentInChildren<Animator> ();
+        audioSource = GetComponent<AudioSource> ();
+        audioIndex = 0;
         /*  //动画机
         animator = GetComponentInChildren<Animator> ();
         //角色数值
