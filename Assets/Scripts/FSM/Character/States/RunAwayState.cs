@@ -4,6 +4,7 @@ using UnityEngine;
 public class RunAwayState : FSMState {
     private float patrolTime;
     private Vector3 targetDir;
+    private float beforeTime;
     public override void Init () {
         stateID = FSMStateID.RunAway;
         //        throw new System.NotImplementedException();
@@ -13,7 +14,10 @@ public class RunAwayState : FSMState {
         fsm.animator.Play ("CarScare");
         GameManager.Instance.player.GetComponentInChildren<Animator> ().SetBool ("Slow", true);
         fsm.audioSource.clip = fsm.FireCarAudios[1];
-        fsm.audioSource.Play ();
+        if (Time.time - beforeTime > 10f) {
+            fsm.audioSource.Play ();
+            beforeTime = Time.time;
+        }
 
     }
     public override void ActionState (FSMBase fsm) {

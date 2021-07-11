@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour {
     public GameObject player;
     [HideInInspector]
     public GameObject fireCar;
+
+    private float startTime;
+    private float endTime;
     private void Awake () {
         if (Instance != null) {
             Debug.LogError ("GameManager重复实例");
@@ -46,6 +49,7 @@ public class GameManager : MonoBehaviour {
         playerWithFireCar = GameObject.Find ("PlayerWithFireCar");
         player = playerWithFireCar.transform.Find ("Player").gameObject;
         fireCar = playerWithFireCar.transform.Find ("FireCar").gameObject;
+
         StartGame ();
     }
     public void SupplyFuel (float buff) {
@@ -68,13 +72,14 @@ public class GameManager : MonoBehaviour {
     IEnumerator StartWalkable () {
         yield return new WaitForSeconds (StartWaitTime);
         Debug.Log ("开始游戏");
+        startTime = Time.time;
         player.GetComponentInChildren<PlayerController> ().walkable = true;
         fireCar.GetComponentInChildren<FSMBase> ().walkAble = true;
     }
     //胜利
     public void Victory () {
         Debug.Log ("胜利");
-
+        endTime = Time.time;
         player.GetComponent<AudioSource> ().clip = victoryClip;
         player.GetComponent<AudioSource> ().Play ();
 
@@ -82,9 +87,23 @@ public class GameManager : MonoBehaviour {
         var dialogPrefab = Resources.Load<GameObject> ("Prefabs/Utilities/VictoryDialog");
         var dialog = Instantiate<GameObject> (dialogPrefab, Vector3.zero, Quaternion.identity);
         GameObject.Find ("CoinText").GetComponent<Text> ().text = starNum.ToString ();
-        GameObject.Find ("GearText").GetComponent<Text> ().text = gearNum.ToString ();
+        GameObject.Find ("GearText").GetComponent<Text> ().text = (Mathf.RoundToInt ((remainedFuel / totalFuel) * 100)).ToString () + "%";
+        int score = starNum + (int) remainedFuel + (int) (80 - (endTime - startTime));
+        GameObject.Find ("TotalScore").GetComponent<Text> ().text = score.ToString();
     }
-
+    IEnumerator countScore () {
+//        int score = starNum + (int) remainedFuel + (int) (80 - (endTime - startTime)), currentScore = 0;
+//        Text text = GameObject.Find ("TotalScore").GetComponent<Text> ();
+        yield return null;
+        /*         yield return new WaitForFixedUpdate ();
+                while (currentScore < score) {
+                    yield return new WaitForFixedUpdate ();
+                    Debug.Log ("currentscore:" + currentScore);
+                    currentScore++;
+                    text.text = currentScore.ToString ();
+                }
+         */
+    }
     public void Defeat () {
         Debug.Log ("失败");
 
