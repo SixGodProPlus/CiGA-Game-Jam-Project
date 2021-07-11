@@ -185,9 +185,9 @@ public abstract class FSMBase : MonoBehaviour {
     /// 贴图翻转
     /// </summary>
     private void textureClip () {
-        if (rb.velocity.x > 0.05f) {
+        if (moveVelocity.x > 0.05f) {
             sprite.flipX = false;
-        } else if (rb.velocity.x < -0.05f) {
+        } else if (moveVelocity.x < -0.05f) {
             sprite.flipX = true;
         }
     }

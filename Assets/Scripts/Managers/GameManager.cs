@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviour {
         player.GetComponent<PlayerController> ().walkable = false;
         fireCar.GetComponent<FSMBase> ().walkAble = false;
         StartCoroutine (StartWalkable ());
+        Cursor.visible = false;
     }
     IEnumerator StartWalkable () {
         yield return new WaitForSeconds (StartWaitTime);
@@ -78,6 +79,7 @@ public class GameManager : MonoBehaviour {
     }
     //胜利
     public void Victory () {
+        Cursor.visible = true;
         Debug.Log ("胜利");
         endTime = Time.time;
         player.GetComponent<AudioSource> ().clip = victoryClip;
@@ -88,12 +90,12 @@ public class GameManager : MonoBehaviour {
         var dialog = Instantiate<GameObject> (dialogPrefab, Vector3.zero, Quaternion.identity);
         GameObject.Find ("CoinText").GetComponent<Text> ().text = starNum.ToString ();
         GameObject.Find ("GearText").GetComponent<Text> ().text = (Mathf.RoundToInt ((remainedFuel / totalFuel) * 100)).ToString () + "%";
-        int score = starNum + (int) remainedFuel + (int) (80 - (endTime - startTime));
-        GameObject.Find ("TotalScore").GetComponent<Text> ().text = score.ToString();
+        int score = starNum * 50 + (int) remainedFuel + (int) (180 - (endTime - startTime));
+        GameObject.Find ("TotalScore").GetComponent<Text> ().text = score.ToString ();
     }
     IEnumerator countScore () {
-//        int score = starNum + (int) remainedFuel + (int) (80 - (endTime - startTime)), currentScore = 0;
-//        Text text = GameObject.Find ("TotalScore").GetComponent<Text> ();
+        //        int score = starNum + (int) remainedFuel + (int) (80 - (endTime - startTime)), currentScore = 0;
+        //        Text text = GameObject.Find ("TotalScore").GetComponent<Text> ();
         yield return null;
         /*         yield return new WaitForFixedUpdate ();
                 while (currentScore < score) {
@@ -106,6 +108,7 @@ public class GameManager : MonoBehaviour {
     }
     public void Defeat () {
         Debug.Log ("失败");
+        Cursor.visible=true;
 
         Time.timeScale = 0;
         var dialogPrefab = Resources.Load<GameObject> ("Prefabs/Utilities/DefeatDialog");

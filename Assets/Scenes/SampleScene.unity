@@ -13669,6 +13669,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 504398073, guid: 259ccfbd3b204c04cac2f0fbae8e6014, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504398073, guid: 259ccfbd3b204c04cac2f0fbae8e6014, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1993129135944165408, guid: 259ccfbd3b204c04cac2f0fbae8e6014, type: 3}
       propertyPath: m_Name
       value: PlayerWithFireCar

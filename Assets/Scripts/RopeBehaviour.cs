@@ -29,7 +29,7 @@ public class RopeBehaviour : MonoBehaviour
         scale = distance / ropeCount;
         
         Vector3 curPos = head.transform.position;
-        var lastRigidbody = head.GetComponent<Rigidbody2D>();
+        var lastRigidbody = head.GetComponentInParent<Rigidbody2D>();
         for (int i = 0; i < ropeCount; ++i)
         {
             var rope = Instantiate<GameObject>(ropePrefab, curPos, Quaternion.identity);
@@ -41,7 +41,7 @@ public class RopeBehaviour : MonoBehaviour
             {
                 var joint = rope.AddComponent<HingeJoint2D>();
                 joint.anchor = new Vector2(1.0f, 0);
-                joint.connectedBody = tail.GetComponent<Rigidbody2D>();
+                joint.connectedBody = tail.GetComponentInParent<Rigidbody2D>();
             }
 
             // save headLink and tailLink
