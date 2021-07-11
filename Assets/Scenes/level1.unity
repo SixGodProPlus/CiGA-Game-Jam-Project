@@ -2719,6 +2719,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7524005878953762166, guid: 63fe2967b6daaf744ab9995b39a1baa5, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7524005878953762167, guid: 63fe2967b6daaf744ab9995b39a1baa5, type: 3}
       propertyPath: m_Name
       value: Gear
@@ -3679,7 +3683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3746097674899814219, guid: 259ccfbd3b204c04cac2f0fbae8e6014, type: 3}
       propertyPath: highChaseRadius
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3746097674899814219, guid: 259ccfbd3b204c04cac2f0fbae8e6014, type: 3}
       propertyPath: FireCarAudios.Array.size
@@ -8199,7 +8203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7524005878953762165, guid: 63fe2967b6daaf744ab9995b39a1baa5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.4
+      value: -8.19
       objectReference: {fileID: 0}
     - target: {fileID: 7524005878953762165, guid: 63fe2967b6daaf744ab9995b39a1baa5, type: 3}
       propertyPath: m_LocalPosition.y
